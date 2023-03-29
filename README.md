@@ -1,3 +1,66 @@
+# Lap Counter
+
+Lap Counter is an application to track the laps completed by multiple participants. You can customize the appearance and behavior of the application by editing the `config.json` file.
+
+## Configuration
+
+To configure the application, update the `config.json` file with the desired settings. Here's an example configuration:
+
+```json
+{
+  "windowTitle": "Lap-Counter",
+  "comPort": "COM3",
+  "main": {
+    "lapLength": 200,
+    "displayType": "grid",
+    "sortType": "bestLap"
+  },
+  "titleRow": {
+    "displayed": true,
+    "default": "Lap Counter"
+  },
+  "totalRow": {
+    "displayed": true,
+    "default": "Total Laps: 0 <br> Estimated Distance: 0m",
+    "format": "Total Laps: ${total} <br> Estimated Distance: ${distance}m"
+  },
+  "list": {
+    "format": "${person}: ${totalLaps} laps (Last Lap: ${lastLap}, Best: ${bestLap})"
+  },
+  "grid": {
+    "name": "Name",
+    "totalLaps": "Total",
+    "lastLap": "Last Lap",
+    "bestLap": "Best Lap"
+  },
+  "names": {
+    "default": "P",
+    "persons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "",
+      "9": "",
+      "10": "",
+      "11": "",
+      "12": "",
+      "13": "",
+      "14": "",
+      "15": "",
+      "16": "",
+      "17": "",
+      "18": "",
+      "19": "",
+      "20": ""
+    }
+  }
+}
+
+
 ### Configuration options
 
 - `windowTitle`: The title of the application window.
