@@ -2,6 +2,28 @@
 
 Lap Counter is an application to track the laps completed by multiple participants. You can customize the appearance and behavior of the application by editing the `config.json` file.
 
+
+## Screenshots and Explanations
+
+In this section, we provide screenshots and explanations for both the list and grid display types to help you better understand the Lap-Counter application.
+
+### List Display
+
+The list display shows a simple list of participants with their total laps, last lap, and best lap information. Each participant is displayed on a separate line.
+
+![List Display Screenshot](./screenshots/list-display.png)
+
+In the example above, you can see the names of the participants along with their total laps, last lap, and best lap. The list display is sorted according to the `sortType` configuration option.
+
+### Grid Display
+
+The grid display shows a table with columns for the name, total laps, last lap, and best lap. Each participant is displayed in a separate row.
+
+![Grid Display Screenshot](./screenshots/grid-display.png)
+
+In the example above, you can see the grid displaying the same information as the list display but in a more organized tabular format. The grid display is also sorted according to the `sortType` configuration option.
+
+
 ## Configuration
 
 To configure the application, update the `config.json` file with the desired settings. Here's an example configuration:
