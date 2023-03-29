@@ -59,7 +59,7 @@ To configure the application, update the `config.json` file with the desired set
     }
   }
 }
-
+```
 
 ### Configuration options
 
