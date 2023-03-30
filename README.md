@@ -32,6 +32,7 @@ To configure the application, update the `config.json` file with the desired set
 {
   "windowTitle": "Lap-Counter",
   "comPort": "COM3",
+  "outputDir": "C:/Users/username/Documents/",
   "main": {
     "lapLength": 200,
     "displayType": "grid",
@@ -90,7 +91,8 @@ To configure the application, update the `config.json` file with the desired set
 
 - `comPort` (string): The COM port used for communication (e.g., "COM3").
   - Example: `"COM3"`
-
+- `outputDir` (string): The directory where the application output files will be saved. 
+  - Example `"C:/Users/username/Documents/"`
 - `main` (object): Main configuration options.
   - `lapLength` (number): The length of a lap in meters.
     - Example: `200`
