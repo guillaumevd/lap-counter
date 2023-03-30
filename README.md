@@ -24,6 +24,13 @@ The grid display shows a table with columns for the name, total laps, last lap, 
 In the example above, you can see the grid displaying the same information as the list display but in a more organized tabular format. The grid display is also sorted according to the `sortType` configuration option.
 
 
+### Data Analyser Program
+
+This is an external software that can read data from the output files of the Lap-Counter program. There will be more documentation in the future
+
+![Grid Display Screenshot](./screenshots/data-analyser.png)
+
+
 ## Configuration
 
 To configure the application, update the `config.json` file with the desired settings. Here's an example configuration:
