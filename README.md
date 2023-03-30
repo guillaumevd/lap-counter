@@ -28,7 +28,7 @@ In the example above, you can see the grid displaying the same information as th
 
 This is an external software that can read data from the output files of the Lap-Counter program. There will be more documentation in the future
 
-![Grid Display Screenshot](./screenshots/data-analyser.png)
+![Data Analyser Screenshot](./screenshots/data-analyser.png)
 
 
 ## Configuration
