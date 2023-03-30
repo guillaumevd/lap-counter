@@ -34,6 +34,7 @@ This is an external software that can read data from the output files of the Lap
 ## Configuration
 
 To configure the application, update the `config.json` file with the desired settings. Here's an example configuration:
+To access the `config.json` you need to right click on the Lap-Counter.exe, choose: open file location and go to the config folder.
 
 ```json
 {
