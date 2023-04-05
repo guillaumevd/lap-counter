@@ -74,7 +74,6 @@ void loop() {
     char command = Serial.read();
 
     if (command == 'c') {
-      Serial.println('o');
       isConnectedDisplayed = true;
       menuState = MENU_TOTAL;
       displayConnectedMessage();
